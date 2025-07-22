@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE ibis [
+<!ELEMENT ibis (part, pin+)>
+<!ELEMENT part EMPTY>
+<!ELEMENT pin EMPTY>
+<!ATTLIST part
+  arch   CDATA #REQUIRED
+  device CDATA #REQUIRED
+  spg    CDATA #REQUIRED
+  pkg    CDATA #REQUIRED>
+<!ATTLIST pin
+  nm     CDATA #REQUIRED
+  no     CDATA #REQUIRED
+  iostd  (TTL|LVTTL|LVCMOS2|NA) "NA"
+  sr     (SLOW|FAST|slow|fast) "SLOW"
+  dir    (BIDIR|bidir|INPUT|input|OUTPUT|output) "BIDIR">
+]>
+<ibis><part arch="xc9500xl" device="XC9536XL" pkg="VQ44" spg="-5"/><pin dir="input" nm="CLK2" no="44"/><pin dir="input" nm="A15" no="36"/><pin dir="input" nm="RW" no="43"/><pin dir="input" nm="A14" no="37"/><pin dir="input" nm="D1" no="22"/><pin dir="input" nm="D0" no="23"/><pin dir="input" nm="D2" no="21"/><pin dir="output" nm="BA15" no="33" sr="fast"/><pin dir="output" nm="BA16" no="38" sr="fast"/><pin dir="output" nm="BA14" no="42" sr="fast"/><pin dir="output" nm="RAM_EN" no="7" sr="fast"/><pin dir="output" nm="RAM_WE" no="40" sr="fast"/><pin dir="output" nm="RamA14" no="6" sr="fast"/><pin dir="output" nm="RomCE" no="8" sr="fast"/><pin dir="output" nm="RomOE" no="18" sr="fast"/><pin dir="output" nm="BA18" no="39" sr="fast"/><pin dir="output" nm="BA17" no="41" sr="fast"/></ibis>

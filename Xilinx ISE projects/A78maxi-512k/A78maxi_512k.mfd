@@ -1,0 +1,141 @@
+MDF Database:  version 1.0
+MDF_INFO | A78maxi_512k | XC9536XL-5-VQ44
+MACROCELL | 0 | 17 | XLXN_272
+ATTRIBUTES | 8520480 | 0
+OUTPUTMC | 1 | 1 | 5
+INPUTS | 5 | D1  | CLK2  | A15  | RW  | A14
+INPUTP | 5 | 35 | 11 | 3 | 10 | 4
+EQ | 2 | 
+   XLXN_272.D = D1;
+   !XLXN_272.CLK = CLK2 & A15 & !RW & !A14;
+
+MACROCELL | 0 | 15 | XLXN_308
+ATTRIBUTES | 8520480 | 0
+OUTPUTMC | 1 | 0 | 3
+INPUTS | 5 | D0  | CLK2  | A15  | RW  | A14
+INPUTP | 5 | 37 | 11 | 3 | 10 | 4
+EQ | 2 | 
+   XLXN_308.D = D0;
+   !XLXN_308.CLK = CLK2 & A15 & !RW & !A14;
+
+MACROCELL | 0 | 14 | XLXN_309
+ATTRIBUTES | 8520480 | 0
+OUTPUTMC | 1 | 1 | 1
+INPUTS | 5 | D2  | CLK2  | A15  | RW  | A14
+INPUTP | 5 | 34 | 11 | 3 | 10 | 4
+EQ | 2 | 
+   XLXN_309.D = D2;
+   !XLXN_309.CLK = CLK2 & A15 & !RW & !A14;
+
+MACROCELL | 0 | 13 | XLXN_312
+ATTRIBUTES | 8520480 | 0
+OUTPUTMC | 1 | 0 | 1
+INPUTS | 5 | D3  | CLK2  | A15  | RW  | A14
+INPUTP | 5 | 33 | 11 | 3 | 10 | 4
+EQ | 2 | 
+   XLXN_312.D = D3;
+   !XLXN_312.CLK = CLK2 & A15 & !RW & !A14;
+
+MACROCELL | 0 | 12 | XLXN_341
+ATTRIBUTES | 8520480 | 0
+OUTPUTMC | 1 | 1 | 0
+INPUTS | 5 | D4  | CLK2  | A15  | RW  | A14
+INPUTP | 5 | 32 | 11 | 3 | 10 | 4
+EQ | 2 | 
+   XLXN_341.D = D4;
+   !XLXN_341.CLK = CLK2 & A15 & !RW & !A14;
+
+MACROCELL | 0 | 3 | BA14_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 2 | A14  | XLXN_308
+INPUTMC | 1 | 0 | 15
+INPUTP | 1 | 4
+EQ | 1 | 
+   !BA14 = !A14 & !XLXN_308;
+
+MACROCELL | 1 | 5 | BA15_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 2 | A14  | XLXN_272
+INPUTMC | 1 | 0 | 17
+INPUTP | 1 | 4
+EQ | 1 | 
+   !BA15 = !A14 & !XLXN_272;
+
+MACROCELL | 1 | 1 | BA16_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 2 | A14  | XLXN_309
+INPUTMC | 1 | 0 | 14
+INPUTP | 1 | 4
+EQ | 1 | 
+   !BA16 = !A14 & !XLXN_309;
+
+MACROCELL | 0 | 1 | BA17_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 2 | A14  | XLXN_312
+INPUTMC | 1 | 0 | 13
+INPUTP | 1 | 4
+EQ | 1 | 
+   !BA17 = !A14 & !XLXN_312;
+
+MACROCELL | 1 | 0 | BA18_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 2 | A14  | XLXN_341
+INPUTMC | 1 | 0 | 12
+INPUTP | 1 | 4
+EQ | 1 | 
+   !BA18 = !A14 & !XLXN_341;
+
+MACROCELL | 0 | 9 | RamA14_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 1 | A14
+INPUTP | 1 | 4
+EQ | 1 | 
+   RamA14 = A14;
+
+MACROCELL | 0 | 11 | RomCE_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 3 | A15  | RW  | A14
+INPUTP | 3 | 3 | 10 | 4
+EQ | 2 | 
+   !RomCE = A15 & RW
+	# RW & A14;
+
+MACROCELL | 0 | 16 | RomOE_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 3 | A15  | RW  | A14
+INPUTP | 3 | 3 | 10 | 4
+EQ | 2 | 
+   !RomOE = A15 & RW
+	# RW & A14;
+
+MACROCELL | 0 | 0 | RAM_WE_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 0
+EQ | 1 | 
+   RAM_WE = Vcc;
+
+MACROCELL | 0 | 10 | RAM_WE_OBUF$BUF0
+ATTRIBUTES | 264962 | 0
+INPUTS | 0
+EQ | 1 | 
+   RAM_EN = Vcc;
+
+PIN | CLK2 | 64 | 0 | N/A | 11 | 5 | 0 | 17 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12
+PIN | A15 | 64 | 0 | N/A | 3 | 7 | 0 | 17 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 16
+PIN | RW | 64 | 0 | N/A | 10 | 7 | 0 | 17 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 16
+PIN | A14 | 64 | 0 | N/A | 4 | 13 | 0 | 17 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 3 | 1 | 5 | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 9 | 0 | 11 | 0 | 16
+PIN | D1 | 64 | 0 | N/A | 35 | 1 | 0 | 17
+PIN | D0 | 64 | 0 | N/A | 37 | 1 | 0 | 15
+PIN | D2 | 64 | 0 | N/A | 34 | 1 | 0 | 14
+PIN | D3 | 64 | 0 | N/A | 33 | 1 | 0 | 13
+PIN | D4 | 64 | 0 | N/A | 32 | 1 | 0 | 12
+PIN | BA14 | 536871040 | 0 | N/A | 9
+PIN | BA15 | 536871040 | 0 | N/A | 47
+PIN | BA16 | 536871040 | 0 | N/A | 5
+PIN | BA17 | 536871040 | 0 | N/A | 8
+PIN | BA18 | 536871040 | 0 | N/A | 6
+PIN | RamA14 | 536871040 | 0 | N/A | 17
+PIN | RomCE | 536871040 | 0 | N/A | 19
+PIN | RomOE | 536871040 | 0 | N/A | 31
+PIN | RAM_WE | 536871040 | 0 | N/A | 7
+PIN | RAM_EN | 536871040 | 0 | N/A | 18

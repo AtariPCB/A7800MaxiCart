@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "Z:/A78maxi-128kACE/A78maxi_128kACE.xst" -ofn "Z:/A78maxi-128kACE/A78maxi_128kACE.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-VQ44-5 A78maxi_128kACE.ngc A78maxi_128kACE.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper A78maxi_128kACE.ngd 
+XSLTProcess A78maxi_128kACE_build.xml 
+tsim -intstyle ise A78maxi_128kACE A78maxi_128kACE.nga 
+taengine -intstyle ise -f A78maxi_128kACE -w --format html1 -l A78maxi_128kACE_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n A78maxi_128kACE -i A78maxi_128kACE 

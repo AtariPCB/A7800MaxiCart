@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="A78maxi_Crossbow.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="A78maxi_Crossbow.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="A78maxi_Crossbow.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_GYD" xil_pn:name="A78maxi_Crossbow.gyd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_JEDEC" xil_pn:name="A78maxi_Crossbow.jed"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="A78maxi_Crossbow.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="A78maxi_Crossbow.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MFD" xil_pn:name="A78maxi_Crossbow.mfd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGA" xil_pn:name="A78maxi_Crossbow.nga"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="A78maxi_Crossbow.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="A78maxi_Crossbow.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="A78maxi_Crossbow.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="A78maxi_Crossbow.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PNX" xil_pn:name="A78maxi_Crossbow.pnx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="A78maxi_Crossbow.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="A78maxi_Crossbow.rpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="A78maxi_Crossbow.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="A78maxi_Crossbow.syr"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="A78maxi_Crossbow.tim"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="A78maxi_Crossbow.tspec"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="A78maxi_Crossbow.vf"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="A78maxi_Crossbow.vm6"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="A78maxi_Crossbow.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="A78maxi_Crossbow.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="A78maxi_Crossbow_build.xml"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="A78maxi_Crossbow_envsettings.html"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="A78maxi_Crossbow_html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="A78maxi_Crossbow_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="A78maxi_Crossbow_pad.csv"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="A78maxi_Crossbow_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="A78maxi_Crossbow_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="A78maxi_super_exrom.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_GYD" xil_pn:name="A78maxi_super_exrom.gyd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_JEDEC" xil_pn:name="A78maxi_super_exrom.jed"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="A78maxi_super_exrom.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="A78maxi_super_exrom.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MFD" xil_pn:name="A78maxi_super_exrom.mfd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGA" xil_pn:name="A78maxi_super_exrom.nga"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="A78maxi_super_exrom.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="A78maxi_super_exrom.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="A78maxi_super_exrom.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="A78maxi_super_exrom.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PNX" xil_pn:name="A78maxi_super_exrom.pnx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="A78maxi_super_exrom.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="A78maxi_super_exrom.rpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="A78maxi_super_exrom.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="A78maxi_super_exrom.syr"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="A78maxi_super_exrom.tim"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="A78maxi_super_exrom.tspec"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="A78maxi_super_exrom.vf"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="A78maxi_super_exrom.vm6"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="A78maxi_super_exrom.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="A78maxi_super_exrom.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="A78maxi_super_exrom_build.xml"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="A78maxi_super_exrom_envsettings.html"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="A78maxi_super_exrom_html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="A78maxi_super_exrom_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="A78maxi_super_exrom_pad.csv"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="A78maxi_super_exrom_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="A78maxi_super_exrom_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1750150221" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1750150221">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1750275319" xil_pn:in_ck="98097483745022844" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-4752562285190061328" xil_pn:start_ts="1750275317">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="A78maxi_Crossbow.vf"/>
+    </transform>
+    <transform xil_pn:end_ts="1750275325" xil_pn:in_ck="6151887342259093754" xil_pn:name="TRANEXT_xstsynthesize_xc9500xl" xil_pn:prop_ck="-5265291250203222943" xil_pn:start_ts="1750275319">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1750150227" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-7405605575515217255" xil_pn:start_ts="1750150227">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1750275329" xil_pn:in_ck="98097483745017526" xil_pn:name="TRAN_ngdbuild" xil_pn:prop_ck="4127910281116314221" xil_pn:start_ts="1750275325">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1750275337" xil_pn:in_ck="98097483745017527" xil_pn:name="TRANEXT_vm6File_xc9500xl" xil_pn:prop_ck="-1115340304225653820" xil_pn:start_ts="1750275329">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1750275339" xil_pn:in_ck="98097483745026391" xil_pn:name="TRANEXT_crtProg_xc9500" xil_pn:prop_ck="-6294026017969277533" xil_pn:start_ts="1750275337">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1750264344" xil_pn:in_ck="98097483745026391" xil_pn:name="TRAN_timRpt" xil_pn:prop_ck="111903974446" xil_pn:start_ts="1750264342">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+    </transform>
+  </transforms>
+
+</generated_project>

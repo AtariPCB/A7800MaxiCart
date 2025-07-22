@@ -1,0 +1,314 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: A78maxi_128kACE.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "A78maxi_128kACE.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "A78maxi_128kACE"
+Output Format                      : NGC
+Target Device                      : XC9500XL CPLDs
+
+---- Source Options
+Top Module Name                    : A78maxi_128kACE
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : Yes
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Verilog 2001                       : YES
+
+---- Other Options
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "A78maxi_128kACE.vf" in library work
+Module <FD_MXILINX_A78maxi_128kACE> compiled
+Module <FD4_MXILINX_A78maxi_128kACE> compiled
+Module <A78maxi_128kACE> compiled
+No errors in compilation
+Analysis of file <"A78maxi_128kACE.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <A78maxi_128kACE> in library <work>.
+
+Analyzing hierarchy for module <FD4_MXILINX_A78maxi_128kACE> in library <work>.
+
+Analyzing hierarchy for module <FD_MXILINX_A78maxi_128kACE> in library <work> with parameters.
+	INIT = "0"
+
+Analyzing hierarchy for module <FD_MXILINX_A78maxi_128kACE> in library <work> with parameters.
+	INIT = "0"
+
+Analyzing hierarchy for module <FD_MXILINX_A78maxi_128kACE> in library <work> with parameters.
+	INIT = "0"
+
+Analyzing hierarchy for module <FD_MXILINX_A78maxi_128kACE> in library <work> with parameters.
+	INIT = "0"
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <A78maxi_128kACE>.
+Module <A78maxi_128kACE> is correct for synthesis.
+ 
+    Set user-defined property "HU_SET =  XLXI_182_4" for instance <XLXI_182> in unit <A78maxi_128kACE>.
+    Set user-defined property "LOC =  37" for signal <A14> in unit <A78maxi_128kACE>.
+    Set user-defined property "LOC =  36" for signal <A15> in unit <A78maxi_128kACE>.
+    Set user-defined property "LOC =  44" for signal <CLK2> in unit <A78maxi_128kACE>.
+    Set user-defined property "LOC =  23" for signal <D0> in unit <A78maxi_128kACE>.
+    Set user-defined property "LOC =  22" for signal <D1> in unit <A78maxi_128kACE>.
+    Set user-defined property "LOC =  21" for signal <D2> in unit <A78maxi_128kACE>.
+    Set user-defined property "LOC =  20" for signal <D3> in unit <A78maxi_128kACE>.
+    Set user-defined property "LOC =  43" for signal <RW> in unit <A78maxi_128kACE>.
+    Set user-defined property "LOC =  42" for signal <BA14> in unit <A78maxi_128kACE>.
+    Set user-defined property "LOC =  33" for signal <BA15> in unit <A78maxi_128kACE>.
+    Set user-defined property "LOC =  38" for signal <BA16> in unit <A78maxi_128kACE>.
+    Set user-defined property "LOC =  41" for signal <BA17> in unit <A78maxi_128kACE>.
+    Set user-defined property "LOC =  39" for signal <BA18> in unit <A78maxi_128kACE>.
+    Set user-defined property "LOC =  6" for signal <RamA14> in unit <A78maxi_128kACE>.
+    Set user-defined property "LOC =  7" for signal <RAM_EN> in unit <A78maxi_128kACE>.
+    Set user-defined property "LOC =  40" for signal <RAM_WE> in unit <A78maxi_128kACE>.
+    Set user-defined property "LOC =  8" for signal <RomCE> in unit <A78maxi_128kACE>.
+    Set user-defined property "LOC =  18" for signal <RomOE> in unit <A78maxi_128kACE>.
+Analyzing module <FD4_MXILINX_A78maxi_128kACE> in library <work>.
+Module <FD4_MXILINX_A78maxi_128kACE> is correct for synthesis.
+ 
+    Set user-defined property "HU_SET =  U0_2" for instance <U0> in unit <FD4_MXILINX_A78maxi_128kACE>.
+    Set user-defined property "HU_SET =  U1_1" for instance <U1> in unit <FD4_MXILINX_A78maxi_128kACE>.
+    Set user-defined property "HU_SET =  U2_3" for instance <U2> in unit <FD4_MXILINX_A78maxi_128kACE>.
+    Set user-defined property "HU_SET =  U3_0" for instance <U3> in unit <FD4_MXILINX_A78maxi_128kACE>.
+Analyzing module <FD_MXILINX_A78maxi_128kACE.1> in library <work>.
+	INIT = 1'b0
+Module <FD_MXILINX_A78maxi_128kACE.1> is correct for synthesis.
+ 
+    Set user-defined property "HU_SET =  U0_2" for instance <U0> in unit <FD_MXILINX_A78maxi_128kACE.1>.
+    Set user-defined property "INIT =  0" for instance <U0> in unit <FD_MXILINX_A78maxi_128kACE.1>.
+Analyzing module <FD_MXILINX_A78maxi_128kACE.2> in library <work>.
+	INIT = 1'b0
+Module <FD_MXILINX_A78maxi_128kACE.2> is correct for synthesis.
+ 
+    Set user-defined property "INIT =  0" for instance <U0> in unit <FD_MXILINX_A78maxi_128kACE.2>.
+Analyzing module <FD_MXILINX_A78maxi_128kACE.3> in library <work>.
+	INIT = 1'b0
+Module <FD_MXILINX_A78maxi_128kACE.3> is correct for synthesis.
+ 
+    Set user-defined property "INIT =  0" for instance <U0> in unit <FD_MXILINX_A78maxi_128kACE.3>.
+Analyzing module <FD_MXILINX_A78maxi_128kACE.4> in library <work>.
+	INIT = 1'b0
+Module <FD_MXILINX_A78maxi_128kACE.4> is correct for synthesis.
+ 
+    Set user-defined property "INIT =  0" for instance <U0> in unit <FD_MXILINX_A78maxi_128kACE.4>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <FD_MXILINX_A78maxi_128kACE_1>.
+    Related source file is "A78maxi_128kACE.vf".
+Unit <FD_MXILINX_A78maxi_128kACE_1> synthesized.
+
+
+Synthesizing Unit <FD_MXILINX_A78maxi_128kACE_2>.
+    Related source file is "A78maxi_128kACE.vf".
+Unit <FD_MXILINX_A78maxi_128kACE_2> synthesized.
+
+
+Synthesizing Unit <FD_MXILINX_A78maxi_128kACE_3>.
+    Related source file is "A78maxi_128kACE.vf".
+Unit <FD_MXILINX_A78maxi_128kACE_3> synthesized.
+
+
+Synthesizing Unit <FD_MXILINX_A78maxi_128kACE_4>.
+    Related source file is "A78maxi_128kACE.vf".
+Unit <FD_MXILINX_A78maxi_128kACE_4> synthesized.
+
+
+Synthesizing Unit <FD4_MXILINX_A78maxi_128kACE>.
+    Related source file is "A78maxi_128kACE.vf".
+Unit <FD4_MXILINX_A78maxi_128kACE> synthesized.
+
+
+Synthesizing Unit <A78maxi_128kACE>.
+    Related source file is "A78maxi_128kACE.vf".
+Unit <A78maxi_128kACE> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 4
+ Flip-Flops                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <A78maxi_128kACE> ...
+  implementation constraint: LOC=23	 : D0
+  implementation constraint: LOC=22	 : D1
+  implementation constraint: LOC=21	 : D2
+  implementation constraint: LOC=20	 : D3
+  implementation constraint: LOC=44	 : CLK2
+  implementation constraint: LOC=43	 : RW
+  implementation constraint: LOC=37	 : A14
+  implementation constraint: LOC=36	 : A15
+  implementation constraint: LOC=40	 : RAM_WE
+  implementation constraint: LOC=6	 : RamA14
+  implementation constraint: LOC=18	 : RomOE
+  implementation constraint: LOC=7	 : RAM_EN
+  implementation constraint: LOC=42	 : BA14
+  implementation constraint: LOC=33	 : BA15
+  implementation constraint: LOC=38	 : BA16
+  implementation constraint: LOC=41	 : BA17
+  implementation constraint: LOC=39	 : BA18
+  implementation constraint: LOC=8	 : RomCE
+
+Optimizing unit <FD_MXILINX_A78maxi_128kACE_1> ...
+  implementation constraint: HU_SET=U0_2  : U0
+  implementation constraint: INIT=0	 : U0
+
+Optimizing unit <FD_MXILINX_A78maxi_128kACE_2> ...
+  implementation constraint: INIT=0	 : U0
+
+Optimizing unit <FD_MXILINX_A78maxi_128kACE_3> ...
+  implementation constraint: INIT=0	 : U0
+
+Optimizing unit <FD_MXILINX_A78maxi_128kACE_4> ...
+  implementation constraint: INIT=0	 : U0
+
+Optimizing unit <FD4_MXILINX_A78maxi_128kACE> ...
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : A78maxi_128kACE.ngr
+Top Level Output File Name         : A78maxi_128kACE
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : Yes
+Target Technology                  : XC9500XL CPLDs
+Macro Preserve                     : YES
+XOR Preserve                       : YES
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+Design Statistics
+# IOs                              : 18
+
+Cell Usage :
+# BELS                             : 19
+#      AND2                        : 3
+#      BUF                         : 4
+#      GND                         : 5
+#      INV                         : 3
+#      OR2                         : 3
+#      VCC                         : 1
+# FlipFlops/Latches                : 4
+#      FDCP                        : 4
+# IO Buffers                       : 18
+#      IBUF                        : 8
+#      OBUF                        : 10
+# Others                           : 3
+#      NAND3                       : 1
+#      NAND4                       : 1
+#      NOR2                        : 1
+=========================================================================
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.92 secs
+ 
+--> 
+
+Total memory usage is 248592 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

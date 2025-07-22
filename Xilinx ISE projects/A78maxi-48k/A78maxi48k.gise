@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="A78maxi48k.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="A78maxi48k.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="A78maxi48k.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_GYD" xil_pn:name="A78maxi48k.gyd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_JEDEC" xil_pn:name="A78maxi48k.jed"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="A78maxi48k.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="A78maxi48k.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MFD" xil_pn:name="A78maxi48k.mfd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGA" xil_pn:name="A78maxi48k.nga"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="A78maxi48k.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="A78maxi48k.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="A78maxi48k.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="A78maxi48k.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PNX" xil_pn:name="A78maxi48k.pnx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="A78maxi48k.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="A78maxi48k.rpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="A78maxi48k.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="A78maxi48k.syr"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="A78maxi48k.tim"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="A78maxi48k.tspec"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="A78maxi48k.vf"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="A78maxi48k.vm6"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="A78maxi48k.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="A78maxi48k.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="A78maxi48k_build.xml"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="A78maxi48k_envsettings.html"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="A78maxi48k_html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="A78maxi48k_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="A78maxi48k_pad.csv"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="A78maxi48k_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="A78maxi48k_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1750679145" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1750679145">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1752662921" xil_pn:in_ck="1456837529962951906" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="3339958692828517718" xil_pn:start_ts="1752662920">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="A78maxi48k.vf"/>
+    </transform>
+    <transform xil_pn:end_ts="1752662926" xil_pn:in_ck="603138836474924448" xil_pn:name="TRANEXT_xstsynthesize_xc9500xl" xil_pn:prop_ck="-3450913006256177593" xil_pn:start_ts="1752662921">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="A78maxi48k.jhd"/>
+      <outfile xil_pn:name="A78maxi48k.lso"/>
+      <outfile xil_pn:name="A78maxi48k.ngc"/>
+      <outfile xil_pn:name="A78maxi48k.ngr"/>
+      <outfile xil_pn:name="A78maxi48k.prj"/>
+      <outfile xil_pn:name="A78maxi48k.stx"/>
+      <outfile xil_pn:name="A78maxi48k.syr"/>
+      <outfile xil_pn:name="A78maxi48k.xst"/>
+      <outfile xil_pn:name="A78maxi48k_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1750679151" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="8765542143066450968" xil_pn:start_ts="1750679151">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1752662929" xil_pn:in_ck="1456837529962946588" xil_pn:name="TRAN_ngdbuild" xil_pn:prop_ck="4127910281116314221" xil_pn:start_ts="1752662926">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="A78maxi48k.bld"/>
+      <outfile xil_pn:name="A78maxi48k.ngd"/>
+      <outfile xil_pn:name="A78maxi48k_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1752662935" xil_pn:in_ck="1456837529962946589" xil_pn:name="TRANEXT_vm6File_xc9500xl" xil_pn:prop_ck="-1115340304225653820" xil_pn:start_ts="1752662929">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="A78maxi48k.gyd"/>
+      <outfile xil_pn:name="A78maxi48k.mfd"/>
+      <outfile xil_pn:name="A78maxi48k.nga"/>
+      <outfile xil_pn:name="A78maxi48k.pad"/>
+      <outfile xil_pn:name="A78maxi48k.pnx"/>
+      <outfile xil_pn:name="A78maxi48k.rpt"/>
+      <outfile xil_pn:name="A78maxi48k.tim"/>
+      <outfile xil_pn:name="A78maxi48k.tspec"/>
+      <outfile xil_pn:name="A78maxi48k.vm6"/>
+      <outfile xil_pn:name="A78maxi48k.xml"/>
+      <outfile xil_pn:name="A78maxi48k_build.xml"/>
+      <outfile xil_pn:name="A78maxi48k_html"/>
+      <outfile xil_pn:name="A78maxi48k_pad.csv"/>
+    </transform>
+    <transform xil_pn:end_ts="1752662937" xil_pn:in_ck="1456837529962955453" xil_pn:name="TRANEXT_crtProg_xc9500" xil_pn:prop_ck="-6294026017969277533" xil_pn:start_ts="1752662935">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="A78maxi48k.jed"/>
+    </transform>
+    <transform xil_pn:end_ts="1750679166" xil_pn:in_ck="1456837529962955453" xil_pn:name="TRAN_timRpt" xil_pn:prop_ck="111903974446" xil_pn:start_ts="1750679164">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+  </transforms>
+
+</generated_project>

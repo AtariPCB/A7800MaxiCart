@@ -1,0 +1,203 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : A78maxi_Crossbow.vf
+// /___/   /\     Timestamp : 07/01/2025 19:17:45
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family xc9500xl -verilog C:/Shared/A78maxi-Crossbow/A78maxi_Crossbow.vf -w C:/Shared/A78maxi-Crossbow/A78maxi_Crossbow.sch
+//Design Name: A78maxi_Crossbow
+//Device: xc9500xl
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module FD_MXILINX_A78maxi_Crossbow(C, 
+                                   D, 
+                                   Q);
+
+   parameter INIT = 1'b0;
+   
+    input C;
+    input D;
+   output Q;
+   
+   wire XLXN_4;
+   
+   GND  I_36_43 (.G(XLXN_4));
+   FDCP  U0 (.C(C), 
+            .CLR(XLXN_4), 
+            .D(D), 
+            .PRE(XLXN_4), 
+            .Q(Q));
+endmodule
+`timescale 1ns / 1ps
+
+module FD4_MXILINX_A78maxi_Crossbow(C, 
+                                    D0, 
+                                    D1, 
+                                    D2, 
+                                    D3, 
+                                    Q0, 
+                                    Q1, 
+                                    Q2, 
+                                    Q3);
+
+    input C;
+    input D0;
+    input D1;
+    input D2;
+    input D3;
+   output Q0;
+   output Q1;
+   output Q2;
+   output Q3;
+   
+   
+   (* HU_SET = "U0_2" *) 
+   FD_MXILINX_A78maxi_Crossbow #( .INIT(1'b0) ) U0 (.C(C), 
+                                   .D(D0), 
+                                   .Q(Q0));
+   (* HU_SET = "U1_1" *) 
+   FD_MXILINX_A78maxi_Crossbow #( .INIT(1'b0) ) U1 (.C(C), 
+                                   .D(D1), 
+                                   .Q(Q1));
+   (* HU_SET = "U2_3" *) 
+   FD_MXILINX_A78maxi_Crossbow #( .INIT(1'b0) ) U2 (.C(C), 
+                                   .D(D2), 
+                                   .Q(Q2));
+   (* HU_SET = "U3_0" *) 
+   FD_MXILINX_A78maxi_Crossbow #( .INIT(1'b0) ) U3 (.C(C), 
+                                   .D(D3), 
+                                   .Q(Q3));
+endmodule
+`timescale 1ns / 1ps
+
+module A78maxi_Crossbow(A14, 
+                        A15, 
+                        CLK2, 
+                        D0, 
+                        D1, 
+                        D2, 
+                        D3, 
+                        RW, 
+                        BA14, 
+                        BA15, 
+                        BA16, 
+                        BA17, 
+                        BA18, 
+                        RAM_EN, 
+                        RAM_WE, 
+                        RomCE, 
+                        RomOE);
+
+   (* LOC = "37" *) 
+    input A14;
+   (* LOC = "36" *) 
+    input A15;
+   (* LOC = "44" *) 
+    input CLK2;
+   (* LOC = "23" *) 
+    input D0;
+   (* LOC = "22" *) 
+    input D1;
+   (* LOC = "21" *) 
+    input D2;
+   (* LOC = "20" *) 
+    input D3;
+   (* LOC = "43" *) 
+    input RW;
+   (* LOC = "42" *) 
+   output BA14;
+   (* LOC = "33" *) 
+   output BA15;
+   (* LOC = "38" *) 
+   output BA16;
+   (* LOC = "41" *) 
+   output BA17;
+   (* LOC = "39" *) 
+   output BA18;
+   (* LOC = "7" *) 
+   output RAM_EN;
+   (* LOC = "40" *) 
+   output RAM_WE;
+   (* LOC = "8" *) 
+   output RomCE;
+   (* LOC = "18" *) 
+   output RomOE;
+   
+   wire XLXN_114;
+   wire XLXN_128;
+   wire XLXN_221;
+   wire XLXN_235;
+   wire XLXN_260;
+   wire XLXN_272;
+   wire XLXN_277;
+   wire XLXN_285;
+   wire XLXN_286;
+   wire XLXN_289;
+   wire XLXN_308;
+   wire XLXN_309;
+   
+   INV  XLXI_20 (.I(RW), 
+                .O(XLXN_128));
+   GND  XLXI_22 (.G(BA18));
+   INV  XLXI_61 (.I(A15), 
+                .O(XLXN_260));
+   BUF  XLXI_94 (.I(XLXN_114), 
+                .O(RomCE));
+   BUF  XLXI_95 (.I(XLXN_114), 
+                .O(RomOE));
+   (* HU_SET = "XLXI_182_4" *) 
+   FD4_MXILINX_A78maxi_Crossbow  XLXI_182 (.C(XLXN_221), 
+                                          .D0(D0), 
+                                          .D1(D1), 
+                                          .D2(D2), 
+                                          .D3(D3), 
+                                          .Q0(XLXN_308), 
+                                          .Q1(XLXN_272), 
+                                          .Q2(XLXN_309), 
+                                          .Q3());
+   BUF  XLXI_192 (.I(XLXN_235), 
+                 .O(BA17));
+   AND2  XLXI_194 (.I0(A14), 
+                  .I1(RW), 
+                  .O(XLXN_286));
+   AND2  XLXI_195 (.I0(RW), 
+                  .I1(A15), 
+                  .O(XLXN_285));
+   NAND2  XLXI_196 (.I0(XLXN_260), 
+                   .I1(A14), 
+                   .O(XLXN_235));
+   NOR2  XLXI_197 (.I0(XLXN_285), 
+                  .I1(XLXN_286), 
+                  .O(XLXN_114));
+   INV  XLXI_198 (.I(A14), 
+                 .O(XLXN_289));
+   NAND4  XLXI_199 (.I0(CLK2), 
+                   .I1(XLXN_128), 
+                   .I2(A15), 
+                   .I3(XLXN_289), 
+                   .O(XLXN_221));
+   BUF  XLXI_200 (.I(A14), 
+                 .O(XLXN_277));
+   OR2  XLXI_201 (.I0(XLXN_308), 
+                 .I1(XLXN_277), 
+                 .O(BA14));
+   OR2  XLXI_202 (.I0(XLXN_272), 
+                 .I1(XLXN_277), 
+                 .O(BA15));
+   OR2  XLXI_203 (.I0(XLXN_309), 
+                 .I1(XLXN_277), 
+                 .O(BA16));
+   VCC  XLXI_204 (.P(RAM_EN));
+   VCC  XLXI_205 (.P(RAM_WE));
+endmodule

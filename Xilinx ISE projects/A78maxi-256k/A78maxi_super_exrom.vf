@@ -1,0 +1,278 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : A78maxi_super_exrom.vf
+// /___/   /\     Timestamp : 06/18/2025 11:26:46
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family xc9500xl -verilog Z:/A78maxi-Super_Exrom/A78maxi_super_exrom.vf -w Z:/A78maxi-Super_Exrom/A78maxi_super_exrom.sch
+//Design Name: A78maxi_super_exrom
+//Device: xc9500xl
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module FD_MXILINX_A78maxi_super_exrom(C, 
+                                      D, 
+                                      Q);
+
+   parameter INIT = 1'b0;
+   
+    input C;
+    input D;
+   output Q;
+   
+   wire XLXN_4;
+   
+   GND  I_36_43 (.G(XLXN_4));
+   FDCP  U0 (.C(C), 
+            .CLR(XLXN_4), 
+            .D(D), 
+            .PRE(XLXN_4), 
+            .Q(Q));
+endmodule
+`timescale 1ns / 1ps
+
+module FDRE_MXILINX_A78maxi_super_exrom(C, 
+                                        CE, 
+                                        D, 
+                                        R, 
+                                        Q);
+
+   parameter INIT = 1'b0;
+   
+    input C;
+    input CE;
+    input D;
+    input R;
+   output Q;
+   
+   wire A0;
+   wire A1;
+   wire QD;
+   wire Q_DUMMY;
+   
+   assign Q = Q_DUMMY;
+   AND3B1  I_36_32 (.I0(R), 
+                   .I1(D), 
+                   .I2(CE), 
+                   .O(A1));
+   AND3B2  I_36_33 (.I0(CE), 
+                   .I1(R), 
+                   .I2(Q_DUMMY), 
+                   .O(A0));
+   OR2  I_36_34 (.I0(A1), 
+                .I1(A0), 
+                .O(QD));
+   (* HU_SET = "I_36_42_0" *) (* RLOC = "R0C0" *) 
+   FD_MXILINX_A78maxi_super_exrom  I_36_42 (.C(C), 
+                                           .D(QD), 
+                                           .Q(Q_DUMMY));
+endmodule
+`timescale 1ns / 1ps
+
+module FD4RE_MXILINX_A78maxi_super_exrom(C, 
+                                         CE, 
+                                         D0, 
+                                         D1, 
+                                         D2, 
+                                         D3, 
+                                         R, 
+                                         Q0, 
+                                         Q1, 
+                                         Q2, 
+                                         Q3);
+
+    input C;
+    input CE;
+    input D0;
+    input D1;
+    input D2;
+    input D3;
+    input R;
+   output Q0;
+   output Q1;
+   output Q2;
+   output Q3;
+   
+   
+   (* HU_SET = "U0_3" *) 
+   FDRE_MXILINX_A78maxi_super_exrom #( .INIT(1'b0) ) U0 (.C(C), 
+                                        .CE(CE), 
+                                        .D(D0), 
+                                        .R(R), 
+                                        .Q(Q0));
+   (* HU_SET = "U1_2" *) 
+   FDRE_MXILINX_A78maxi_super_exrom #( .INIT(1'b0) ) U1 (.C(C), 
+                                        .CE(CE), 
+                                        .D(D1), 
+                                        .R(R), 
+                                        .Q(Q1));
+   (* HU_SET = "U2_1" *) 
+   FDRE_MXILINX_A78maxi_super_exrom #( .INIT(1'b0) ) U2 (.C(C), 
+                                        .CE(CE), 
+                                        .D(D2), 
+                                        .R(R), 
+                                        .Q(Q2));
+   (* HU_SET = "U3_4" *) 
+   FDRE_MXILINX_A78maxi_super_exrom #( .INIT(1'b0) ) U3 (.C(C), 
+                                        .CE(CE), 
+                                        .D(D3), 
+                                        .R(R), 
+                                        .Q(Q3));
+endmodule
+`timescale 1ns / 1ps
+
+module A78maxi_super_exrom(A14, 
+                           A15, 
+                           CLK2, 
+                           D0, 
+                           D1, 
+                           D2, 
+                           D3, 
+                           RW, 
+                           BA14, 
+                           BA15, 
+                           BA16, 
+                           BA17, 
+                           BA18, 
+                           RAM_EN, 
+                           RAM_WE, 
+                           RomCE, 
+                           RomOE);
+
+   (* LOC = "37" *) 
+    input A14;
+   (* LOC = "36" *) 
+    input A15;
+   (* LOC = "44" *) 
+    input CLK2;
+   (* LOC = "23" *) 
+    input D0;
+   (* LOC = "22" *) 
+    input D1;
+   (* LOC = "21" *) 
+    input D2;
+   (* LOC = "20" *) 
+    input D3;
+   (* LOC = "43" *) 
+    input RW;
+   (* LOC = "42" *) 
+   output BA14;
+   (* LOC = "33" *) 
+   output BA15;
+   (* LOC = "38" *) 
+   output BA16;
+   (* LOC = "41" *) 
+   output BA17;
+   (* LOC = "39" *) 
+   output BA18;
+   (* LOC = "7" *) 
+   output RAM_EN;
+   (* LOC = "40" *) 
+   output RAM_WE;
+   (* LOC = "8" *) 
+   output RomCE;
+   (* LOC = "18" *) 
+   output RomOE;
+   
+   wire XLXN_68;
+   wire XLXN_70;
+   wire XLXN_71;
+   wire XLXN_88;
+   wire XLXN_114;
+   wire XLXN_128;
+   wire XLXN_142;
+   wire XLXN_145;
+   wire XLXN_163;
+   wire XLXN_166;
+   wire XLXN_167;
+   wire XLXN_172;
+   wire XLXN_173;
+   wire XLXN_180;
+   wire XLXN_182;
+   
+   INV  XLXI_18 (.I(A14), 
+                .O(XLXN_68));
+   INV  XLXI_20 (.I(RW), 
+                .O(XLXN_128));
+   GND  XLXI_22 (.G(BA18));
+   (* HU_SET = "XLXI_43_5" *) 
+   FD4RE_MXILINX_A78maxi_super_exrom  XLXI_43 (.C(XLXN_172), 
+                                              .CE(XLXN_88), 
+                                              .D0(D0), 
+                                              .D1(D1), 
+                                              .D2(D2), 
+                                              .D3(D3), 
+                                              .R(), 
+                                              .Q0(XLXN_180), 
+                                              .Q1(BA15), 
+                                              .Q2(BA16), 
+                                              .Q3());
+   AND4  XLXI_50 (.I0(A15), 
+                 .I1(XLXN_68), 
+                 .I2(CLK2), 
+                 .I3(XLXN_128), 
+                 .O(XLXN_173));
+   OR2  XLXI_52 (.I0(XLXN_71), 
+                .I1(XLXN_70), 
+                .O(XLXN_114));
+   AND2  XLXI_53 (.I0(A15), 
+                 .I1(RW), 
+                 .O(XLXN_70));
+   AND2  XLXI_54 (.I0(A14), 
+                 .I1(RW), 
+                 .O(XLXN_71));
+   INV  XLXI_56 (.I(A14), 
+                .O(XLXN_88));
+   AND2  XLXI_60 (.I0(XLXN_142), 
+                 .I1(A14), 
+                 .O(XLXN_182));
+   INV  XLXI_61 (.I(A15), 
+                .O(XLXN_142));
+   NAND2  XLXI_62 (.I0(CLK2), 
+                  .I1(XLXN_128), 
+                  .O(RAM_WE));
+   NAND2  XLXI_63 (.I0(XLXN_142), 
+                  .I1(A14), 
+                  .O(RAM_EN));
+   (* HU_SET = "XLXI_66_6" *) 
+   FD4RE_MXILINX_A78maxi_super_exrom  XLXI_66 (.C(XLXN_172), 
+                                              .CE(XLXN_167), 
+                                              .D0(XLXN_145), 
+                                              .D1(), 
+                                              .D2(), 
+                                              .D3(), 
+                                              .R(), 
+                                              .Q0(), 
+                                              .Q1(), 
+                                              .Q2(), 
+                                              .Q3());
+   AND3  XLXI_68 (.I0(XLXN_163), 
+                 .I1(A14), 
+                 .I2(RW), 
+                 .O(XLXN_166));
+   INV  XLXI_69 (.I(A15), 
+                .O(XLXN_163));
+   VCC  XLXI_70 (.P(XLXN_145));
+   INV  XLXI_72 (.I(XLXN_166), 
+                .O(XLXN_167));
+   INV  XLXI_73 (.I(XLXN_173), 
+                .O(XLXN_172));
+   INV  XLXI_74 (.I(XLXN_114), 
+                .O(RomCE));
+   INV  XLXI_75 (.I(XLXN_114), 
+                .O(RomOE));
+   BUF  XLXI_76 (.I(XLXN_180), 
+                .O(BA14));
+   BUF  XLXI_77 (.I(XLXN_182), 
+                .O(BA17));
+endmodule

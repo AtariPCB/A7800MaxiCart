@@ -1,0 +1,29 @@
+Pin Freeze File:  version P.20131013
+
+9536XL44VQ XC9536XL-5-VQ44
+A14 S:PIN37
+A15 S:PIN36
+BA14 S:PIN42
+BA15 S:PIN33
+RAM_WE S:PIN40
+RAM_EN S:PIN7
+RamA14 S:PIN6
+RomCE S:PIN8
+BA18 S:PIN39
+BA17 S:PIN41
+BA16 S:PIN38
+RomOE S:PIN18
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_1 RAM_EN_OBUF RomCE_OBUF$BUF1
+PARTITION FB1_4 BA14_OBUF
+PARTITION FB1_10 RamA14_OBUF RAM_EN_OBUF$BUF0 RomCE_OBUF
+PARTITION FB1_17 RomOE_OBUF
+
+PARTITION FB2_1 RomCE_OBUF$BUF0 RomCE_OBUF$BUF2
+PARTITION FB2_6 BA15_OBUF
+
+
