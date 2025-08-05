@@ -1,0 +1,35 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -i -p xc9536xl-VQ44-5 A78maxi_256k_RAM.ngc
+A78maxi_256k_RAM.ngd
+
+Reading NGO file "Z:/A78maxi-256k-RAM/A78maxi_256k_RAM.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 149256 kilobytes
+
+Writing NGD file "A78maxi_256k_RAM.ngd" ...
+Total REAL time to NGDBUILD completion:  1 sec
+Total CPU time to NGDBUILD completion:   0 sec
+
+Writing NGDBUILD log file "A78maxi_256k_RAM.bld"...
